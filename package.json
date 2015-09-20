@@ -1,0 +1,6 @@
+{
+  "name": "requirator-text",
+  "version": "1.0.0",
+  "description": "A text plugin for requirator",
+  "main": "./lib/requirator-text.js"
+}
