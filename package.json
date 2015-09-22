@@ -3,7 +3,20 @@
   "version": "1.0.0",
   "description": "A text plugin for requirator",
   "main": "./lib/requirator-text.js",
+  "scripts": {
+    "test": "_mocha tests",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/power-cosmic/requirator-text.git"
+  },
   "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2",
+    "ajaxer": "git+https://github.com/power-cosmic/ajaxer.git",
+    "ajaxer-fs": "git+https://github.com/power-cosmic/ajaxer-fs.git",
     "requirator": "git+https://github.com/power-cosmic/requirator"
   }
 }
