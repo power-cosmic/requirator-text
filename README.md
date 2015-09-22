@@ -1,5 +1,7 @@
 # requirator-text
 
+[![Build Status](https://travis-ci.org/power-cosmic/requirator-text.svg)](https://travis-ci.org/power-cosmic/requirator-text)
+
 ## Overview
 
 A plugin for [requirator](https://github.com/power-cosmic/requirator) to mimic the functionality of [requirejs/text](https://github.com/requirejs/text).
